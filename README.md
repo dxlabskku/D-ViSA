@@ -1,3 +1,6 @@
 # D-ViSA: A Dataset for Detecting Visual Sentiment from Art Images
 
 Detecting emotions evoked by art has been receiving great attention recently. Although previous works provide a variety of datasets consisting of art images and corresponding emotion labels, little attention has been paid to the continuous and dimensional characteristics of human emotions, especially in the domain of art. Thus, we propose a dataset for detecting visual sentiment from art images, D-ViSA, whose labels consist of both categorical and dimensional emotion labels which can be implemented in a wide range of visual sentiment analysis research regarding art. We compare several deep learning baselines in two specific tasks, single-feature, and multi-feature dimensional emotion regression. Our experiments lead to the conclusion that our dataset is plausible for both regression tasks with deep learning baselines. We assume that our dataset contributes to the field of artwork analysis and provides insights into human emotions evoked by art.
+
+## Dataset
+The information for our dataset can be found in 'D-ViSA.csv', which includes categorical and dimensional labels for each image file. The sample images can be found in the 'data' folder. We note that all the image files are source from the 'abstract expressionnism' category of 'WikiArt' database.
